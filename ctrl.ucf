@@ -1,0 +1,9 @@
+NET "oVGA_HS" LOC="R9";
+NET "oVGA_VS" LOC="T10";
+NET "oVGA_R[9]" LOC="R12";
+NET "oVGA_G[9]" LOC="T12";
+NET "oVGA_B[9]" LOC="R11";
+net "PS2_DAT" loc = "M15";
+net "PS2_CLK" loc = "M16";
+NET "iSW" LOC = "K13";
+NET "iCLK_50" LOC = "T9";

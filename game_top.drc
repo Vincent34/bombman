@@ -1,0 +1,14 @@
+Release 12.4 Drc M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Mon Dec 29 21:38:16 2014
+
+drc -z game_top.ncd game_top.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net mBKG_ROM2/q_or0000 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal <iSW<1>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

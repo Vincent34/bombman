@@ -1,0 +1,5 @@
+set -tmpdir "E:/Xilinx/bombman/xst/projnav.tmp"
+set -xsthdpdir "E:/Xilinx/bombman/xst"
+elaborate
+-ifn game_controller.prj
+-ifmt mixed

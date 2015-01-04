@@ -1,0 +1,6 @@
+verilog work "ps2_rx.v"
+verilog work "fifo.v"
+verilog work "key2ascii.v"
+verilog work "kb_code.v"
+verilog work "kb_top.v"
+verilog work "PS2DATA.v"

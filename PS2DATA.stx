@@ -1,0 +1,47 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/Xilinx/bombman/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to E:/Xilinx/bombman/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ps2_rx.v" in library work
+Compiling verilog file "fifo.v" in library work
+Module <ps2_rx> compiled
+Compiling verilog file "key2ascii.v" in library work
+Module <fifo> compiled
+Compiling verilog file "kb_code.v" in library work
+Module <key2ascii> compiled
+Compiling verilog file "kb_top.v" in library work
+Module <kb_code> compiled
+Compiling verilog file "PS2DATA.v" in library work
+Module <kb_top> compiled
+Module <PS2DATA> compiled
+No errors in compilation
+Analysis of file <"PS2DATA.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> 
+
+Total memory usage is 184112 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

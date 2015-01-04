@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map M.81d on Mon Dec 29 21:37:55 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "oVGA_HS" LOCATE = SITE "R9" LEVEL 1;
+COMP "oVGA_VS" LOCATE = SITE "T10" LEVEL 1;
+COMP "oVGA_B<9>" LOCATE = SITE "R11" LEVEL 1;
+COMP "iCLK_50" LOCATE = SITE "T9" LEVEL 1;
+COMP "oVGA_G<9>" LOCATE = SITE "T12" LEVEL 1;
+COMP "oVGA_R<9>" LOCATE = SITE "R12" LEVEL 1;
+COMP "iSW<17>" LOCATE = SITE "K13" LEVEL 1;
+COMP "iSW<1>" LOCATE = SITE "J13" LEVEL 1;
+COMP "PS2_DAT" LOCATE = SITE "M15" LEVEL 1;
+COMP "PS2_CLK" LOCATE = SITE "M16" LEVEL 1;
+NET "iCLK_50_BUFGP/IBUFG" BEL "iCLK_50_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
